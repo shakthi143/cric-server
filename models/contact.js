@@ -7,4 +7,4 @@ const ContactSchema = new mongoose.Schema({
   message: { type: String, required: true },
 });
 
-module.exports = mongoose.model('Contact', ContactSchema);
+module.exports = mongoose.model('contact', ContactSchema);
